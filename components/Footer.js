@@ -5,13 +5,26 @@ export default function Footer() {
   return (
     <>
       <div className="footerContainer">
+      <div className="customShapeDividerTopFirstSection">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 0L0 0 598.97 114.72 1200 0z"
+              className="shapeFill"
+            ></path>
+          </svg>
+        </div>
       <div className="gradiantBg">
               <div className="img">
                 <Image src="/bg.png" fill="relative" alt="" />
               </div>
             </div>
         <div className={`footerAlign ${styles.alignBox}`}>
-          <div className='title'><span id={styles.styleGradient}>$MOG</span></div>
+          <div className='title'><span >$MOG</span></div>
           <div className='socialsContainer'>
           <a href="https://t.me/" target="_BLANK" rel="noreferrer">
             <div className='socialBox'>
@@ -77,7 +90,7 @@ export default function Footer() {
       <style jsx>{`
         .footerContainer {
           width: 100%;
-          height: 300px;
+          height: 400px;
           display: flex;
           align-items: center;
           justify-content: flex-start;
@@ -85,6 +98,7 @@ export default function Footer() {
           margin-top: 50px;
           padding-bottom: 150px;
           position: relative;
+          background: linear-gradient(90deg, black, #03e1ff, #dc1fff, black);
         }
 
         .footerAlign {
@@ -102,12 +116,16 @@ export default function Footer() {
           justify-content: center;
           line-height: 1;
           z-index: 2;
-          margin-bottom: 50px;
-          margin-top: 50px;
+          margin-bottom: 60px;
+          margin-top: 130px;
+          z-index: 2;
+
         }
 
         .title span{
           font-size: 5rem;
+          font-family: var(--Row);
+          color: white;
         }
 
         .socialsContainer {
@@ -117,7 +135,7 @@ export default function Footer() {
           align-items: center;
           justify-content: center;
           gap: 50px;
-					z-index: 1;
+					z-index: 2;
           margin-top: -30px;
         }
 
@@ -141,11 +159,32 @@ export default function Footer() {
         .gradiantBg {
           position: absolute;
           width: 50%;
-          height: 90%;
+          height: 50%;
           background: linear-gradient(90deg, #fff, #fff, #fff, #fff);
           filter: blur(200px);
           -webkit-filter: blur(200px);
           z-index: 1;
+        }
+
+        .customShapeDividerTopFirstSection {
+          z-index: 1;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          overflow: hidden;
+          line-height: 0;
+          transform: rotate(0deg);
+        }
+
+        .customShapeDividerTopFirstSection svg {
+          position: relative;
+          display: block;
+          width: calc(100% + 1.3px);
+          height: 100px;
+        }
+
+        .customShapeDividerTopFirstSection .shapeFill {
+          fill: #000000;
         }
 
         @media screen and (max-width: 750px){

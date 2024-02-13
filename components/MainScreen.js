@@ -11,11 +11,11 @@ export default function MainScreen({name}){
               <span>${name}</span>
             </div>
             <div className="desc">
-              <span>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book`}</span>
+              <span>{`$MOG is a movement, it is a way of life. Since day one, $MOG has built its community organically from the ground-up with one goal in mind: to be a culture-defining force in the crypto ecosystem.`}</span>
             </div>
             <div className="buttonsContainer">
-              <a href='#' target='_BLANK' rel='norefferer'><button>BUY</button></a>
-              <a href='#' target='_BLANK' rel='norefferer'><button>CHART</button></a>
+              <a href='https://raydium.io/swap/?outputCurrency=' target='_BLANK' rel='norefferer'><button>BUY</button></a>
+              <a href='https://dexscreener.com/solana/' target='_BLANK' rel='norefferer'><button>CHART</button></a>
             </div>
           </div>
           <div className="rightSide">
@@ -76,6 +76,7 @@ export default function MainScreen({name}){
           font-weight: 200;
           width: 90%;
           color: white;
+          line-height: 1.5;
         }
 
         .buttonsContainer {

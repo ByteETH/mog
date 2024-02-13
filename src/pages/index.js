@@ -7,6 +7,7 @@ import DivisorListing from "../../components/DivisorListing/DivisorListing";
 import AboutSection from "../../components/AboutSection";
 import Howtobuy from "../../components/HowToBuy";
 import Tokenomics from "../../components/Tokenomics";
+import Footer from "../../components/Footer";
 
 const row = Russo_One({
   weight: "400",
@@ -35,6 +36,7 @@ export default function Home() {
         <AboutSection name='MOG'/>
         <Howtobuy />
         <Tokenomics />
+        <Footer />
       </main>
 
       <style jsx>{`

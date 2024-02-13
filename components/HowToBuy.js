@@ -19,7 +19,7 @@ export default function Howtobuy(){
               <span>{`To buy $MOG, first you will need a wallet, you can use Phantom Wallet, fill your wallet with SOL, you can buy it from Binance or Coinbase`}</span>
               <span>{`Swap SOL for $MOG, use Raydium or Birdeye using or Contract Address`}</span>
             </div>
-            <div className='btnContainer'><button>Get Phantom</button></div>
+            <div className='btnContainer'><a href='https://phantom.app/' target='_BLANK' rel='noreferrer'><button>Get Phantom</button></a></div>
             <div className="gradiantBg">
               <div className="img">
                 <Image src="/bg.png" fill="relative" alt="" />

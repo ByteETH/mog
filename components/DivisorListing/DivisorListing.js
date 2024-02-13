@@ -7,7 +7,7 @@ import { Bounce } from "react-awesome-reveal";
 import styles from '../../src/styles/align.module.css'
 
 export default function DivisorListing() {
-  const [showAmount, setShowAmount] = useState(4);
+  const [showAmount, setShowAmount] = useState(2);
 
   const settings = {
     dots: false,

@@ -18,7 +18,7 @@ export default function Navbar({name}) {
 
   return (
     <>
-      <div className="navbarContainer">
+      <div className="navbarContainer" id='home'>
         <div className={`navbarAlign ${styles.alignBox}`}>
           <div className="leftSide">
             <div className="text">

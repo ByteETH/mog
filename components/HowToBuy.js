@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Howtobuy(){
   return (
     <>
-      <div className="htbContainer">
+      <div className="htbContainer" id='htb'>
         <div className={`htbAlign ${styles.alignBox}`}>
         <div className="leftSide"></div>
           <div className="rightSide">

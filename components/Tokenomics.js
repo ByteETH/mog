@@ -3,7 +3,7 @@ import styles from "../src/styles/align.module.css";
 export default function Tokenomics() {
   return (
     <>
-      <div className="tknContainer">
+      <div className="tknContainer" id='tokenomics'>
         <div className={`tknAlign ${styles.alignBox}`}>
           <div className="title">
             <span id={styles.styleGradient}>TOKENOMICS</span>
@@ -94,7 +94,7 @@ export default function Tokenomics() {
           justify-content: flex-start;
           flex-direction: column;
           gap: 20px;
-          margin-top: 70px;
+          margin-top: 0px;
         }
 
         .boxTxt {
@@ -141,8 +141,25 @@ export default function Tokenomics() {
           }
         }
 
-        @media screen and (max-width: 500px){
+        @media screen and (max-width: 550px){
+          .title span{
+            font-size: 3.5rem;
+          }
+        }
 
+        @media screen and (max-width: 500px){
+          .imgContainer{
+            width: 400px;
+            height: 400px;
+          }
+        }
+
+        
+        @media screen and (max-width: 400px){
+          .imgContainer{
+            width: 350px;
+            height: 350px;
+          }
         }
       `}</style>
     </>

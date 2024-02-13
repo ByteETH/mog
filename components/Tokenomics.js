@@ -1,4 +1,5 @@
 import styles from "../src/styles/align.module.css";
+import Image from 'next/image';
 
 export default function Tokenomics() {
   return (
@@ -11,7 +12,7 @@ export default function Tokenomics() {
 
           <div className="bodyTokenomics">
           <div className="leftSide">
-            <div className="imgContainer"></div>
+            <div className="imgContainer"><Image src='/tknm.jpg' alt='' fill='responsive'/></div>
           </div>
           <div className="rightSide">
             <div className="boxTxt">
@@ -27,7 +28,7 @@ export default function Tokenomics() {
               <span>Total Supply: 1 Billion</span>
               <span>0/0 TAX</span>
               <span>Liquidity Burned</span>
-              <span>Ownership Renounced</span>
+              <span>Ownership Revoked</span>
             </div>
           </div>
         </div>
@@ -83,8 +84,9 @@ export default function Tokenomics() {
         .imgContainer{
           width: 500px;
           height: 500px;
-          border: 1px solid white;
           position: relative;
+          border-radius: 20px;
+          overflow: hidden;
         }
 
         .rightSide {

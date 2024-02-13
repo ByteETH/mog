@@ -6,7 +6,9 @@ export default function Howtobuy(){
     <>
       <div className="htbContainer" id='htb'>
         <div className={`htbAlign ${styles.alignBox}`}>
-        <div className="leftSide"></div>
+        <div className="leftSide">
+          <Image src='/htb.png' alt='' fill='responsive'/>
+        </div>
           <div className="rightSide">
             <div className="title">
               <span className="about" id={`${styles.styleGradient}`}>
@@ -62,8 +64,10 @@ export default function Howtobuy(){
           display: flex;
           align-items: center;
           justify-content: center;
-          border: 1px solid white;
+          position: relative;
           margin-top: 20px;
+          border-radius: 20px;
+          overflow: hidden;
         }
 
         .title {

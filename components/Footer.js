@@ -26,13 +26,13 @@ export default function Footer() {
         <div className={`footerAlign ${styles.alignBox}`}>
           <div className='title'><span >$MOG</span></div>
           <div className='socialsContainer'>
-          <a href="https://t.me/" target="_BLANK" rel="noreferrer">
+          <a href="https://t.me/mogsolportal" target="_BLANK" rel="noreferrer">
             <div className='socialBox'>
               <Image src="/telegram.png" width="50" height="50" alt="" />
             </div>
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://twitter.com/MOGsolOfficial"
             target="_BLANK"
             rel="noreferrer"
           >

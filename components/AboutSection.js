@@ -21,7 +21,9 @@ export default function AboutSection({name}){
               <span>{`Mog is a movement, it is a way of life. Since day one, Mog has built its community organically from the ground-up with one goal in mind: to be a culture-defining force in the crypto ecosystem.`}</span>
             </div>
           </div>
-          <div className='rightSide'></div>
+          <div className='rightSide'>
+            <Image src='/about.png' fill='responsive' alt=''/>
+          </div>
         </div>
       </div>
 
@@ -66,13 +68,13 @@ export default function AboutSection({name}){
         }
 
         .aboutAlign .rightSide{
-          width: 550px;
+          width: 500px;
           height: 500px;
           display: flex;
           align-items: center;
           justify-content: center;
-          border: 1px solid white;
           margin-top: 20px;
+          position: relative;
         }
 
         .title {

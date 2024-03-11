@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://dexscreener.com/solana/"
+            href="https://dexscreener.com/solana/5d7kuV1KutTgZFSkNAoWu3cTfU6oU9WUahfpJ8wCD61u"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -55,7 +55,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://www.dextools.io/app/es/solana/pair-explorer/"
+            href="https://www.dextools.io/app/es/solana/pair-explorer/5d7kuV1KutTgZFSkNAoWu3cTfU6oU9WUahfpJ8wCD61u"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -69,7 +69,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://raydium.io/swap/?outputCurrency="
+            href="https://raydium.io/swap/?outputCurrency=5d7kuV1KutTgZFSkNAoWu3cTfU6oU9WUahfpJ8wCD61u"
             target="_BLANK"
             rel="noreferrer"
           >

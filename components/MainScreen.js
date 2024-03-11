@@ -14,8 +14,8 @@ export default function MainScreen({name}){
               <span>{`$MOG is a movement, it is a way of life. Since day one, $MOG has built its community organically from the ground-up with one goal in mind: to be a culture-defining force in the crypto ecosystem.`}</span>
             </div>
             <div className="buttonsContainer">
-              <a href='https://raydium.io/swap/?outputCurrency=' target='_BLANK' rel='norefferer'><button>BUY</button></a>
-              <a href='https://dexscreener.com/solana/' target='_BLANK' rel='norefferer'><button>CHART</button></a>
+              <a href='https://raydium.io/swap/?outputCurrency=5d7kuV1KutTgZFSkNAoWu3cTfU6oU9WUahfpJ8wCD61u' target='_BLANK' rel='norefferer'><button>BUY</button></a>
+              <a href='https://dexscreener.com/solana/5d7kuV1KutTgZFSkNAoWu3cTfU6oU9WUahfpJ8wCD61u' target='_BLANK' rel='norefferer'><button>CHART</button></a>
             </div>
           </div>
           <div className="rightSide">

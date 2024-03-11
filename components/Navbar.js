@@ -30,7 +30,7 @@ export default function Navbar({name}) {
             <Link href='#home'><span>Home</span></Link>
             <Link href='#htb'><span>How to buy</span></Link>
             <Link href='#tokenomics'><span>Tokenomics</span></Link>
-            <span className='last'><a href='https://t.me/mogsolportal' rel='noreferrer' target="_BLANK">Join the Community</a></span>
+            <span className='last'><a href='https://t.me/mogsoltoken' rel='noreferrer' target="_BLANK">Join the Community</a></span>
           </div>
           <div className='rightSideMobile' onClick={n}>
           {openMobileMenu ? (

@@ -26,13 +26,13 @@ export default function Footer() {
         <div className={`footerAlign ${styles.alignBox}`}>
           <div className='title'><span >$MOG</span></div>
           <div className='socialsContainer'>
-          <a href="https://t.me/mogsolportal" target="_BLANK" rel="noreferrer">
+          <a href="https://t.me/mogsoltoken" target="_BLANK" rel="noreferrer">
             <div className='socialBox'>
               <Image src="/telegram.png" width="50" height="50" alt="" />
             </div>
           </a>
           <a
-            href="https://twitter.com/MOGsolOfficial"
+            href="https://twitter.com/MogOnSool"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://dexscreener.com/solana/GKvFocz56H58xVv2Yh6hHdp3sD5NdQST7NsnMMjC6A8q"
+            href="https://dexscreener.com/solana/"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -55,7 +55,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://www.dextools.io/app/es/solana/pair-explorer/GKvFocz56H58xVv2Yh6hHdp3sD5NdQST7NsnMMjC6A8q"
+            href="https://www.dextools.io/app/es/solana/pair-explorer/"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -69,7 +69,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://raydium.io/swap/?outputCurrency=GKvFocz56H58xVv2Yh6hHdp3sD5NdQST7NsnMMjC6A8q"
+            href="https://raydium.io/swap/?outputCurrency="
             target="_BLANK"
             rel="noreferrer"
           >

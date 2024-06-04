@@ -75,7 +75,7 @@ export default function Footer() {
           >
             <div className='socialBox'>
               <Image
-                src="/raydium.webp"
+                src="/uniswap.png"
                 width="50"
                 height="50"
                 alt=""

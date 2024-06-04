@@ -18,11 +18,6 @@ export default function Footer() {
             ></path>
           </svg>
         </div>
-      <div className="gradiantBg">
-              <div className="img">
-                <Image src="/bg.png" fill="relative" alt="" />
-              </div>
-            </div>
         <div className={`footerAlign ${styles.alignBox}`}>
           <div className='title'><span >$ELMOG</span></div>
           <div className='socialsContainer'>
@@ -98,7 +93,7 @@ export default function Footer() {
           margin-top: 50px;
           padding-bottom: 150px;
           position: relative;
-          background: linear-gradient(90deg, black, #03e1ff, #dc1fff, black);
+          background: linear-gradient(90deg, black, red, red, black);
         }
 
         .footerAlign {

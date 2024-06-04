@@ -120,7 +120,7 @@ export default function Howtobuy(){
           color: #fff;
           line-height: 2em;
           text-align: center;
-          background: linear-gradient(90deg, white, #03e1ff, #dc1fff, white);
+          background: linear-gradient(90deg, white, red, red, white);
           background-size: 300%;
           border-radius: 10px;
           z-index: 1;
@@ -163,10 +163,10 @@ export default function Howtobuy(){
           z-index: -1;
           background: linear-gradient(
             90deg,
-            #03e1ff,
-            #dc1fff,
-            #dc1fff,
-            #03e1ff
+            red,
+            white,
+            white,
+            red
           );
           background-size: 400%;
           border-radius: 10px;

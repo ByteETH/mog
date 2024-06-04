@@ -134,7 +134,7 @@ export default function Navbar({name}) {
           color: white;
           transition: 0.2s ease-out;
           text-decoration: none;
-          background-image: linear-gradient(45deg, #03E1FF, #DC1FFF);
+          background-image: linear-gradient(45deg, red, white);
         }
 
 

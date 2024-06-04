@@ -14,8 +14,8 @@ export default function MainScreen({name}){
               <span>{`$ELMOG is a movement, it is a way of life. Since day one, $ELMOG has built its community organically from the ground-up with one goal in mind: to be a culture-defining force in the crypto ecosystem.`}</span>
             </div>
             <div className="buttonsContainer">
-              <a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#' target='_BLANK' rel='norefferer'><button>BUY</button></a>
-              <a href='https://www.dextools.io/app/es/ether/pair-explorer/#' target='_BLANK' rel='norefferer'><button>CHART</button></a>
+              <a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x5C9438756C9347A5A2ca7EfE8c81000dB83eba78' target='_BLANK' rel='norefferer'><button>BUY</button></a>
+              <a href='https://www.dextools.io/app/es/ether/pair-explorer/0x5C9438756C9347A5A2ca7EfE8c81000dB83eba78' target='_BLANK' rel='norefferer'><button>CHART</button></a>
             </div>
           </div>
           <div className="rightSide">

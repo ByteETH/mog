@@ -16,9 +16,9 @@ export default function AboutSection({name}){
               <span className='about' id={`${styles.styleGradient}`}>ABOUT ${name}</span>
             </div>
             <div className='desc'>
-              <span>{`$MOG is the internet's first culture coin.`}</span>
-              <span>{`But it's more than just a coin, it's tokenized winning. $MOG is effortless cosmic domination and unaduletared success distilled into computer photons.`}</span>
-              <span>{`Mog is a movement, it is a way of life. Since day one, Mog has built its community organically from the ground-up with one goal in mind: to be a culture-defining force in the crypto ecosystem.`}</span>
+              <span>{`$ELMOG is the internet's first culture coin.`}</span>
+              <span>{`But it's more than just a coin, it's tokenized winning. $ELMOG is effortless cosmic domination and unaduletared success distilled into computer photons.`}</span>
+              <span>{`Elmog is a movement, it is a way of life. Since day one, Elmog has built its community organically from the ground-up with one goal in mind: to be a culture-defining force in the crypto ecosystem.`}</span>
             </div>
           </div>
           <div className='rightSide'>
@@ -75,6 +75,8 @@ export default function AboutSection({name}){
           justify-content: center;
           margin-top: 20px;
           position: relative;
+          border-radius: 20px;
+          overflow: hidden;
         }
 
         .title {

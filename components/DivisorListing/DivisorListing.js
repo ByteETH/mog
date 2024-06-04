@@ -47,11 +47,10 @@ export default function DivisorListing() {
         <div className={`carrouselAlign ${styles.alignBox}`}>
         <Bounce duration={'800'}>
         <Slider {...settings}>
-          <BoxItem srcPath={'/carrousel/birdeye.webp'} w={200} h={80} />
           <BoxItem srcPath={'/carrousel/coingecko.png'} w={200} h={80}/>
           <BoxItem srcPath={'/carrousel/coinmarketcap.png'} w={230} h={50} />
           <BoxItem srcPath={'/carrousel/dextools.png'} w={150} h={50} />
-          <BoxItem srcPath={'/carrousel/raydium.png'} w={180} h={60} />
+          <BoxItem srcPath={'/carrousel/uniswap.png'} w={220} h={60} />
           <BoxItem srcPath={'/carrousel/dexscreener.png'} w={180} h={50} />
         </Slider>
         </Bounce>

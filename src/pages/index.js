@@ -25,15 +25,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>$MOG | SOLANA</title>
+        <title>$ELMOG | ETH</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${roboto.variable} ${row.variable}`}>
-        <Navbar name='MOG'/>
-        <MainScreen name='MOG'/>
+        <Navbar name='ELMOG'/>
+        <MainScreen name='ELMOG'/>
         <DivisorListing />
-        <AboutSection name='MOG'/>
+        <AboutSection name='ELMOG'/>
         <Howtobuy />
         <Tokenomics />
         <Footer />

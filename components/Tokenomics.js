@@ -12,17 +12,17 @@ export default function Tokenomics() {
 
           <div className="bodyTokenomics">
           <div className="leftSide">
-            <div className="imgContainer"><Image src='/tknm.jpg' alt='' fill='responsive'/></div>
+            <div className="imgContainer"><Image src='/tknm.png' alt='' fill='responsive'/></div>
           </div>
           <div className="rightSide">
             <div className="boxTxt">
               <span>Total Supply: 1 Billion</span>
             </div>
             <div className="boxTxt">
-              <span>Chain: SOLANA</span>
+              <span>Chain: Ethereum</span>
             </div>
             <div className="boxTxt">
-              <span>Symbol: $MOG</span>
+              <span>Symbol: $ELMOG</span>
             </div>
             <div className="boxTxt lastBox">
               <span>Total Supply: 1 Billion</span>

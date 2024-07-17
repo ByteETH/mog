@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import styles from '../src/styles/align.module.css';
+import Image from "next/image";
+import styles from "../src/styles/align.module.css";
 
-export default function MainScreen({name}){
+export default function MainScreen({ name }) {
   return (
     <>
       <div className="mainContainer">
@@ -11,15 +11,30 @@ export default function MainScreen({name}){
               <span>${name}</span>
             </div>
             <div className="desc">
-              <span>{`$MOGGED is a movement, it is a way of life. Since day one, $MOGGED has built its community organically from the ground-up with one goal in mind: to be a culture-defining force in the crypto ecosystem.`}</span>
+              <span>{`With $MOG breaking ATH everyday and $TRUMP being trending everywhere $MOGGED was born in a perfect narrative. $MOGGED is a movement, it is a way of life.
+Donald Trump is getting $MOGGED. América will get $MOGGED. U will get $MOGGED.`}</span>
             </div>
             <div className="buttonsContainer">
-              <a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#' target='_BLANK' rel='norefferer'><button>BUY</button></a>
-              <a href='https://www.dextools.io/app/es/ether/pair-explorer/#' target='_BLANK' rel='norefferer'><button>CHART</button></a>
+              <a
+                href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#"
+                target="_BLANK"
+                rel="norefferer"
+              >
+                <button>BUY</button>
+              </a>
+              <a
+                href="https://www.dextools.io/app/es/ether/pair-explorer/#"
+                target="_BLANK"
+                rel="norefferer"
+              >
+                <button>CHART</button>
+              </a>
             </div>
           </div>
           <div className="rightSide">
-            <div className='imgContainer'><Image src='/logo.png' fill='responsive' alt=''/></div>
+            <div className="imgContainer">
+              <Image src="/logo.png" fill="responsive" alt="" />
+            </div>
             <div className="gradiantBg">
               <div className="img">
                 <Image src="/bg.png" fill="relative" alt="" />
@@ -128,13 +143,7 @@ export default function MainScreen({name}){
           right: -5px;
           bottom: -5px;
           z-index: -1;
-          background: linear-gradient(
-            90deg,
-            red,
-            white,
-            white,
-            red
-          );
+          background: linear-gradient(90deg, red, white, white, red);
           background-size: 400%;
           border-radius: 10px;
           transition: 1s;
@@ -163,7 +172,7 @@ export default function MainScreen({name}){
           position: relative;
         }
 
-        .imgContainer{
+        .imgContainer {
           width: 500px;
           height: 500px;
           position: absolute;
@@ -184,24 +193,24 @@ export default function MainScreen({name}){
           z-index: 1;
         }
 
-        @media screen and (max-width: 1100px){
-          .mainAlign{
+        @media screen and (max-width: 1100px) {
+          .mainAlign {
             flex-direction: column-reverse;
           }
 
-          .mainAlign .leftSide{
+          .mainAlign .leftSide {
             width: 95%;
             justify-content: flex-start;
             align-items: center;
             margin-top: 0px;
           }
 
-          .mainAlign .rightSide{
+          .mainAlign .rightSide {
             width: 95%;
             height: 400px;
           }
 
-          .imgContainer{
+          .imgContainer {
             margin-top: 0px;
             width: 450px;
             height: 450px;
@@ -211,36 +220,36 @@ export default function MainScreen({name}){
             width: 40%;
             height: 100%;
           }
-          
+
           .title {
             justify-content: center;
           }
 
-          .desc{
+          .desc {
             justify-content: center;
             text-align: center;
           }
         }
 
-        @media screen and (max-width: 500px){
-          .desc{
+        @media screen and (max-width: 500px) {
+          .desc {
             width: 100%;
             font-size: 1.25rem;
           }
 
-          .buttonsContainer button{
+          .buttonsContainer button {
             width: 120px;
             font-size: 0.9rem;
           }
 
-          .imgContainer{
+          .imgContainer {
             width: 400px;
             height: 400px;
           }
         }
 
-        @media screen and (max-width: 400px){
-          .imgContainer{
+        @media screen and (max-width: 400px) {
+          .imgContainer {
             width: 330px;
             height: 330px;
           }

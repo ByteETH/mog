@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://x.com/#"
+            href="https://x.com/MoggedTrump"
             target="_BLANK"
             rel="noreferrer"
           >

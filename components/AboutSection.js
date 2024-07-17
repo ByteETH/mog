@@ -22,7 +22,7 @@ export default function AboutSection({name}){
             </div>
           </div>
           <div className='rightSide'>
-            <Image src='/logo.png' fill='responsive' alt=''/>
+            <Image src='/about.png' fill='responsive' alt=''/>
           </div>
         </div>
       </div>

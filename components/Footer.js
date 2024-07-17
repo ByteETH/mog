@@ -21,7 +21,7 @@ export default function Footer() {
         <div className={`footerAlign ${styles.alignBox}`}>
           <div className='title'><span >$MOGGED</span></div>
           <div className='socialsContainer'>
-          <a href="https://t.me/#" target="_BLANK" rel="noreferrer">
+          <a href="https://t.me/moggedtrump_eth" target="_BLANK" rel="noreferrer">
             <div className='socialBox'>
               <Image src="/telegram.png" width="50" height="50" alt="" />
             </div>

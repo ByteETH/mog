@@ -16,14 +16,14 @@ Donald Trump is getting $MOGGED. América will get $MOGGED. U will get $MOGGED.`
             </div>
             <div className="buttonsContainer">
               <a
-                href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#"
+                href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x7D80B5dAA151c426dC73FDF9996b58CC0Db49D7C"
                 target="_BLANK"
                 rel="norefferer"
               >
                 <button>BUY</button>
               </a>
               <a
-                href="https://www.dextools.io/app/es/ether/pair-explorer/#"
+                href="https://www.dextools.io/app/es/ether/pair-explorer/0x7D80B5dAA151c426dC73FDF9996b58CC0Db49D7C"
                 target="_BLANK"
                 rel="norefferer"
               >

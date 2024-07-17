@@ -19,15 +19,15 @@ export default function Footer() {
           </svg>
         </div>
         <div className={`footerAlign ${styles.alignBox}`}>
-          <div className='title'><span >$ELMOG</span></div>
+          <div className='title'><span >$MOGGED</span></div>
           <div className='socialsContainer'>
-          <a href="https://t.me/elmogcoin" target="_BLANK" rel="noreferrer">
+          <a href="https://t.me/#" target="_BLANK" rel="noreferrer">
             <div className='socialBox'>
               <Image src="/telegram.png" width="50" height="50" alt="" />
             </div>
           </a>
           <a
-            href="https://x.com/elmogcoin"
+            href="https://x.com/#"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://dexscreener.com/ethereum/0x5C9438756C9347A5A2ca7EfE8c81000dB83eba78"
+            href="https://dexscreener.com/ethereum/#"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://www.dextools.io/app/es/ether/pair-explorer/0x5C9438756C9347A5A2ca7EfE8c81000dB83eba78"
+            href="https://www.dextools.io/app/es/ether/pair-explorer/#"
             target="_BLANK"
             rel="noreferrer"
           >
@@ -64,7 +64,7 @@ export default function Footer() {
             </div>
           </a>
 					<a
-            href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x5C9438756C9347A5A2ca7EfE8c81000dB83eba78"
+            href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#"
             target="_BLANK"
             rel="noreferrer"
           >

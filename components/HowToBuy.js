@@ -16,8 +16,8 @@ export default function Howtobuy(){
               </span>
             </div>
             <div className="desc">
-              <span>{`To buy $ELMOG, first you will need a wallet, you can use Metamask, fill your wallet with ETH, you can buy it from Binance or Coinbase`}</span>
-              <span>{`Swap ETH for $ELMOG, use Uniswap using or Contract Address`}</span>
+              <span>{`To buy $MOGGED, first you will need a wallet, you can use Metamask, fill your wallet with ETH, you can buy it from Binance or Coinbase`}</span>
+              <span>{`Swap ETH for $MOGGED, use Uniswap using or Contract Address`}</span>
             </div>
             <div className='btnContainer'><a href='https://metamask.io/' target='_BLANK' rel='noreferrer'><button>Get Metamask</button></a></div>
             <div className="gradiantBg">
@@ -59,7 +59,7 @@ export default function Howtobuy(){
         }
 
         .htbAlign .leftSide {
-          width: 550px;
+          width: 500px;
           height: 500px;
           display: flex;
           align-items: center;

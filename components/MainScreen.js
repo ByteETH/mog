@@ -113,7 +113,7 @@ export default function MainScreen({ name }) {
           height: 30px;
           line-height: 2em;
           text-align: center;
-          background: linear-gradient(45deg, blue, blue, white, blue 80%);
+          background: linear-gradient(45deg, #0b0063, #0b0063, white, #0b0063 80%);
           border-radius: 10px;
           z-index: 1;
         }
@@ -142,7 +142,7 @@ export default function MainScreen({ name }) {
           right: -5px;
           bottom: -5px;
           z-index: -1;
-          background: linear-gradient(45deg, blue, blue, white, blue 80%);
+          background: linear-gradient(45deg, #0b0063, #0b0063, white, #0b0063 80%);
           background-size: 400%;
           border-radius: 10px;
           transition: 1s;

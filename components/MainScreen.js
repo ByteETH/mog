@@ -11,8 +11,7 @@ export default function MainScreen({ name }) {
               <span>${name}</span>
             </div>
             <div className="desc">
-              <span>{`Tokenized Electronic Treasury Harnessing Economic Reserves (TETHER) emerges as a unique memecoin. Inspired by the traditional U.S.
-                      Treasury but with a digital twist, TETHER aims to blend the seriousness of national financial stewardship with the light-hearted, community-driven ethos of meme culture.`}</span>
+              <span>{`Tokenized Electronic Treasury Harnessing Economic Reserves (TETHER) emerges as a unique memecoin. Inspired by the traditional U.S. `}</span>
             </div>
             <div className="buttonsContainer">
               <a
@@ -77,6 +76,7 @@ export default function MainScreen({ name }) {
           width: 500px;
           height: 150px;
           position: relative;
+          margin-top: 50px;
         }
 
         .title span {

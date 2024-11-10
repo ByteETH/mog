@@ -16,13 +16,12 @@ export default function AboutSection({name}){
               <span className='about' id={`${styles.styleGradient}`}>ABOUT ${name}</span>
             </div>
             <div className='desc'>
-              <span>{`$MOGGED is the internet's first culture coin.`}</span>
-              <span>{`But it's more than just a coin, it's tokenized winning. $MOGGED is effortless cosmic domination and unaduletared success distilled into computer photons.`}</span>
-              <span>{`MOGGED is a movement, it is a way of life. Since day one, Mogged has built its community organically from the ground-up with one goal in mind: to be a culture-defining force in the crypto ecosystem.`}</span>
+              <span>{`Inspired by the traditional U.S. Treasury but with a digital twist, TETHER aims to blend the seriousness of national financial stewardship with the light-hearted, community-driven ethos of meme culture.`}</span>
+              <span>{`But it's more than just a coin, it's tokenized winning. $TETHER is effortless cosmic domination and unaduletared success distilled into computer photons.`}</span>
             </div>
           </div>
           <div className='rightSide'>
-            <Image src='/about.png' fill='responsive' alt=''/>
+            <Image src='/about2.jpg' fill='responsive' alt=''/>
           </div>
         </div>
       </div>

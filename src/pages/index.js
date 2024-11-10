@@ -33,8 +33,8 @@ export default function Home() {
         <Navbar name='TETHER'/>
         <MainScreen name='TETHER'/>
         <DivisorListing />
-        {/* <AboutSection name='TETHER'/> */}
-        {/* <Howtobuy /> */}
+        <AboutSection name='TETHER'/>
+        <Howtobuy /> 
         <Tokenomics />
         <Footer />
       </main>

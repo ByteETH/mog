@@ -7,7 +7,7 @@ export default function Howtobuy(){
       <div className="htbContainer" id='htb'>
         <div className={`htbAlign ${styles.alignBox}`}>
         <div className="leftSide">
-          <Image src='/htb.png' alt='' fill='responsive'/>
+          <Image src='/htb.webp' alt='' fill='responsive'/>
         </div>
           <div className="rightSide">
             <div className="title">
@@ -16,13 +16,13 @@ export default function Howtobuy(){
               </span>
             </div>
             <div className="desc">
-              <span>{`To buy $MOGGED, first you will need a wallet, you can use Metamask, fill your wallet with ETH, you can buy it from Binance or Coinbase`}</span>
-              <span>{`Swap ETH for $MOGGED, use Uniswap using or Contract Address`}</span>
+              <span>{`To buy $TETHER, first you will need a wallet, you can use Metamask, fill your wallet with ETH, you can buy it from Binance or Coinbase`}</span>
+              <span>{`Swap ETH for $TETHER, use Uniswap using or Contract Address`}</span>
             </div>
             <div className='btnContainer'><a href='https://metamask.io/' target='_BLANK' rel='noreferrer'><button>Get Metamask</button></a></div>
             <div className="gradiantBg">
               <div className="img">
-                <Image src="/bg.png" fill="relative" alt="" />
+                <Image src="/htb.webp" fill="relative" alt="" />
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function Howtobuy(){
           color: #fff;
           line-height: 2em;
           text-align: center;
-          background: linear-gradient(90deg, white, red, red, white);
+          background: linear-gradient(90deg, white, #0b0063, #0b0063, white);
           background-size: 300%;
           border-radius: 10px;
           z-index: 1;
@@ -137,7 +137,7 @@ export default function Howtobuy(){
           left: 250px;
           width: 50%;
           height: 50%;
-          background: linear-gradient(90deg, #fff, #fff, #fff, #fff);
+          background: linear-gradient(90deg, #0b0063, #0b0063, #0b0063, #0b0063);
           filter: blur(120px);
           -webkit-filter: blur(120px);
           z-index: 1;
@@ -163,10 +163,10 @@ export default function Howtobuy(){
           z-index: -1;
           background: linear-gradient(
             90deg,
-            red,
+            #0b0063,
             white,
             white,
-            red
+            #0b0063
           );
           background-size: 400%;
           border-radius: 10px;

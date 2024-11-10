@@ -25,16 +25,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>$MOGGED | ETH</title>
+        <title>$TETHER | ETH</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${roboto.variable} ${row.variable}`}>
-        <Navbar name='MOGGED'/>
-        <MainScreen name='MOGGED'/>
+        <Navbar name='TETHER'/>
+        <MainScreen name='TETHER'/>
         <DivisorListing />
-        <AboutSection name='MOGGED'/>
-        <Howtobuy />
+        {/* <AboutSection name='TETHER'/> */}
+        {/* <Howtobuy /> */}
         <Tokenomics />
         <Footer />
       </main>
@@ -47,7 +47,11 @@ export default function Home() {
           align-items: center;
           justify-content: flex-start;
           flex-direction: column;
-          background-color: #000000;
+          background: linear-gradient(
+            180deg,
+            black,
+            green
+          );
         }
       `}</style>
     </>

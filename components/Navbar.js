@@ -27,10 +27,8 @@ export default function Navbar({name}) {
           </div>
 
           <div className="rightSide">
-            <Link href='#home'><span>Home</span></Link>
-            <Link href='#htb'><span>How to buy</span></Link>
-            <Link href='#tokenomics'><span>Tokenomics</span></Link>
-            <span className='last'><a href='https://t.me/moggedtrump_eth' rel='noreferrer' target="_BLANK">Join the Community!</a></span>
+
+            <span className='last'><a href='https://t.me/#' rel='noreferrer' target="_BLANK">Join the Community!</a></span>
           </div>
           <div className='rightSideMobile' onClick={n}>
           {openMobileMenu ? (
@@ -109,7 +107,6 @@ export default function Navbar({name}) {
         }
 
         .rightSide span{
-          cursor: pointer;
           color: white;
           text-underline-offset: 3px;
         }
@@ -126,7 +123,6 @@ export default function Navbar({name}) {
           padding: 10px;
           padding-left: 15px;
           padding-right: 15px;
-          cursor: pointer;
         }
 
         .rightSide .last:hover{
@@ -134,7 +130,7 @@ export default function Navbar({name}) {
           color: white;
           transition: 0.2s ease-out;
           text-decoration: none;
-          background-image: linear-gradient(45deg, red, white);
+          background-image: linear-gradient(45deg, green, white);
         }
 
 

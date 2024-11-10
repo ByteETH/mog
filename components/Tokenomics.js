@@ -16,19 +16,19 @@ export default function Tokenomics() {
           </div>
           <div className="rightSide">
             <div className="boxTxt">
-              <span>Total Supply: 420,69T</span>
+              <span>Total Supply: 1 Billion</span>
             </div>
             <div className="boxTxt">
               <span>Chain: Ethereum</span>
             </div>
             <div className="boxTxt">
-              <span>Symbol: $MOGGED</span>
+              <span>Symbol: $TETHER</span>
             </div>
             <div className="boxTxt lastBox">
-              <span>Total Supply: 420,69T</span>
+              <span>Total Supply: 1 BILLION</span>
               <span>0/0 TAX</span>
               <span>Liquidity Burned</span>
-              <span>Ownership Revoked</span>
+              <span>Ownership Renounced</span>
             </div>
           </div>
         </div>

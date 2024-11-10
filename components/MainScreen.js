@@ -11,19 +11,19 @@ export default function MainScreen({ name }) {
               <span>${name}</span>
             </div>
             <div className="desc">
-              <span>{`With $MOG breaking ATH everyday and $TRUMP being trending everywhere $MOGGED was born in a perfect narrative. $MOGGED is a movement, it is a way of life.
-Donald Trump is getting $MOGGED. América will get $MOGGED. U will get $MOGGED.`}</span>
+              <span>{`Tokenized Electronic Treasury Harnessing Economic Reserves (TETHER) emerges as a unique memecoin. Inspired by the traditional U.S.
+                      Treasury but with a digital twist, TETHER aims to blend the seriousness of national financial stewardship with the light-hearted, community-driven ethos of meme culture.`}</span>
             </div>
             <div className="buttonsContainer">
               <a
-                href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x7D80B5dAA151c426dC73FDF9996b58CC0Db49D7C"
+                href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#"
                 target="_BLANK"
                 rel="norefferer"
               >
                 <button>BUY</button>
               </a>
               <a
-                href="https://www.dextools.io/app/es/ether/pair-explorer/0x7D80B5dAA151c426dC73FDF9996b58CC0Db49D7C"
+                href="https://www.dextools.io/app/es/ether/pair-explorer/#"
                 target="_BLANK"
                 rel="norefferer"
               >
@@ -108,14 +108,12 @@ Donald Trump is getting $MOGGED. América will get $MOGGED. U will get $MOGGED.`
           border: none;
           font-size: 1rem;
           font-family: var(--Roboto);
-          cursor: pointer;
           color: #fff;
           width: 200px;
           height: 30px;
           line-height: 2em;
           text-align: center;
-          background: linear-gradient(90deg, white, red, red, white);
-          background-size: 300%;
+          background: linear-gradient(45deg, green, green, white, green 80%);
           border-radius: 10px;
           z-index: 1;
         }
@@ -123,6 +121,7 @@ Donald Trump is getting $MOGGED. América will get $MOGGED. U will get $MOGGED.`
         .buttonsContainer button:hover {
           animation: ani 8s linear infinite;
           border: none;
+          cursor: pointer;
         }
 
         @keyframes ani {
@@ -143,7 +142,7 @@ Donald Trump is getting $MOGGED. América will get $MOGGED. U will get $MOGGED.`
           right: -5px;
           bottom: -5px;
           z-index: -1;
-          background: linear-gradient(90deg, red, white, white, red);
+          background: linear-gradient(45deg, green, green, white, green 80%);
           background-size: 400%;
           border-radius: 10px;
           transition: 1s;
@@ -173,8 +172,8 @@ Donald Trump is getting $MOGGED. América will get $MOGGED. U will get $MOGGED.`
         }
 
         .imgContainer {
-          width: 500px;
-          height: 500px;
+          width: 600px;
+          height: 600px;
           position: absolute;
           z-index: 2;
           display: flex;
@@ -182,6 +181,17 @@ Donald Trump is getting $MOGGED. América will get $MOGGED. U will get $MOGGED.`
           justify-content: center;
           overflow: hidden;
           margin-top: -100px;
+          animation: rotate 0.5s linear infinite;
+        }
+
+
+        @keyframes rotate {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
         }
 
         .gradiantBg {

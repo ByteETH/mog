@@ -5,7 +5,7 @@
 
 #styleGradient{
   font-family: var(--Row);
-  background-image: linear-gradient(45deg, white, red, white, red 80%);
+  background-image: linear-gradient(45deg, green, green, white, green 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;

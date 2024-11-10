@@ -8,13 +8,13 @@ export default function Footer() {
         <div className={`footerAlign ${styles.alignBox}`}>
           <div className='title'><span >$TETHER</span></div>
           <div className='socialsContainer'>
-          <a href="https://t.me/#" target="_BLANK" rel="noreferrer">
+          <a href="https://t.me/tethercoineth" target="_BLANK" rel="noreferrer">
             <div className='socialBox'>
               <Image src="/telegram.png" width="50" height="50" alt="" />
             </div>
           </a>
           <a
-            href="https://x.com/#"
+            href="https://x.com/TETHERETH"
             target="_BLANK"
             rel="noreferrer"
           >

@@ -28,7 +28,7 @@ export default function Navbar({name}) {
 
           <div className="rightSide">
 
-            <span className='last'><a href='https://t.me/#' rel='noreferrer' target="_BLANK">Join the Community!</a></span>
+            <span className='last'><a href='https://t.me/tethercoineth' rel='noreferrer' target="_BLANK">Join the Community!</a></span>
           </div>
           <div className='rightSideMobile' onClick={n}>
           {openMobileMenu ? (

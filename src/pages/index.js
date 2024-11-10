@@ -50,7 +50,7 @@ export default function Home() {
           background: linear-gradient(
             180deg,
             black,
-            green
+            #0b0063
           );
         }
       `}</style>

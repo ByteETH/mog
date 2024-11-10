@@ -15,14 +15,14 @@ export default function MainScreen({ name }) {
             </div>
             <div className="buttonsContainer">
               <a
-                href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=#"
+                href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x610B8520cE37163A76BF77edC71bF8FcF3FDa353"
                 target="_BLANK"
                 rel="norefferer"
               >
                 <button>BUY</button>
               </a>
               <a
-                href="https://www.dextools.io/app/es/ether/pair-explorer/#"
+                href="https://www.dextools.io/app/es/ether/pair-explorer/0x610B8520cE37163A76BF77edC71bF8FcF3FDa353"
                 target="_BLANK"
                 rel="norefferer"
               >

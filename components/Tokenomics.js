@@ -12,7 +12,7 @@ export default function Tokenomics() {
 
           <div className="bodyTokenomics">
           <div className="leftSide">
-            <div className="imgContainer"><Image src='/tknm.png' alt='' fill='responsive'/></div>
+            <div className="imgContainer"><video src='/tknm.mp4' autoPlay={true} loop={true} muted={true}/></div>
           </div>
           <div className="rightSide">
             <div className="boxTxt">
@@ -87,6 +87,9 @@ export default function Tokenomics() {
           position: relative;
           border-radius: 20px;
           overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
         .rightSide {

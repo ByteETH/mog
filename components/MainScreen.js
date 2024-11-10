@@ -181,18 +181,21 @@ export default function MainScreen({ name }) {
           justify-content: center;
           overflow: hidden;
           margin-top: -100px;
-          animation: rotate 0.5s linear infinite;
+          animation: movimiento 2.5s linear infinite;
         }
 
 
-        @keyframes rotate {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
-          }
-        }
+        @keyframes movimiento{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(15px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
 
         .gradiantBg {
           width: 30%;
